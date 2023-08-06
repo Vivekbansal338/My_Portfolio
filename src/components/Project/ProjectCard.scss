@@ -1,0 +1,84 @@
+/* Card Container */
+.projectcard-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #666666;
+}
+
+/* Card Header */
+.projectcard-header {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.projectcard-header h4 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+  color: azure;
+}
+
+.projectcard-header p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 0;
+  color: azure;
+}
+
+.projectcard-frame {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* Card Image */
+.projectcard-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Card Footer */
+.projectcard-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  // border-top: 1px solid #666666;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+/* Link Styles */
+.projectcard-link {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.projectcard-link:hover {
+  color: var(--text2);
+  cursor: pointer;
+}
+
+/* Icon Styles */
+.projectcard-icon {
+  font-size: 2rem;
+}

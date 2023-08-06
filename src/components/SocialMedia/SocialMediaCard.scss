@@ -1,0 +1,22 @@
+.socialmediacard-icon svg {
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0 0 1px var(--text4));
+  animation: pulse 2s ease-in-out infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

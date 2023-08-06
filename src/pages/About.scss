@@ -1,0 +1,26 @@
+.app__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  // @media (min-width: 100px) and (max-width: 768px) {
+  //   margin-top: 3rem;
+  //   flex-direction: column;
+  //   font-size: 2rem;
+  //   justify-content: start;
+  //   gap: 2rem;
+  // }
+  // @media (min-width: 875px) {
+  //   .break {
+  //     display: none;
+  //   }
+  // }
+  // @media (min-width: 769px) {
+  //   padding: 0 2.5rem;
+  // }
+}

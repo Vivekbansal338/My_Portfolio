@@ -11,22 +11,25 @@ export default function ProjectCard(props) {
         <h4>{title}</h4>
         <p>{description}</p>
       </div>
-      {/* <img src={projectimg_url} alt={title} className="projectcard-image" /> */}
-      <div className="projectcard-frame">
-        <iframe
-          src={projectimg_url}
-          width="300"
-          height="300"
-          title="{title}"
-          style={{
-            pointerEvents: "none",
-            cursor: "pointer",
-            overflow: "hidden",
-          }}
-          sandbox="allow-scripts"
-        />
-      </div>
-
+      {projectimg_url && (
+        <img src={projectimg_url} alt={title} className="projectcard-image" />
+      )}
+      {applink && (
+        <div className="projectcard-frame">
+          <iframe
+            src={applink}
+            width="300"
+            height="300"
+            title="{title}"
+            style={{
+              pointerEvents: "none",
+              cursor: "pointer",
+              overflow: "hidden",
+            }}
+            sandbox="allow-scripts"
+          />
+        </div>
+      )}
       <div className="projectcard-footer">
         <a
           href={githublink}

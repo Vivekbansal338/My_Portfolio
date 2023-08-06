@@ -10,6 +10,7 @@ import {
   NavbarMenuToggle,
 } from "@nextui-org/react";
 import headerlogo from "../../assets/headerlogo.png";
+import headerprofile from "../../assets/profile.jpeg";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -47,9 +48,9 @@ export default function App() {
             href="#home"
             className="transition-transform"
             color="secondary"
-            name="Jason Hughes"
+            name="Vivek Bansal"
             size="sm"
-            src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+            src={headerprofile}
           />
         </NavbarItem>
       </NavbarContent>

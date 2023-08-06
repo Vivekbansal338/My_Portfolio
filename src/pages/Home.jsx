@@ -9,7 +9,12 @@ import "./Home.scss";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Software Engineer", "React Developer"],
+    words: [
+      "Web Developer",
+      "Software Developer",
+      "Frontend Developer",
+      "Backend Developer",
+    ],
     loop: 0,
     cursor: true,
     cursorStyle: "_",

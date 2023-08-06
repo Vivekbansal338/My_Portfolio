@@ -14,9 +14,9 @@ const projects = [
   {
     title: "My Portfolio",
     description: "My portfolio website",
-    applink: "http://localhost:3000/#home",
-    githublink: "https://github.com",
-    projectimg_url: "http://localhost:3000/#home",
+    applink: "https://vivek-bansal-portfolio.vercel.app/",
+    githublink: "https://github.com/Vivekbansal338/My_Portfolio",
+    projectimg_url: "https://vivek-bansal-portfolio.vercel.app/",
   },
 ];
 

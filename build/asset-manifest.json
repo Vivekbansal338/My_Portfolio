@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3537a510.css",
+    "main.css": "/static/css/main.0ce3d85e.css",
     "main.js": "/static/js/main.05ff6fd4.js",
     "static/media/forky.png": "/static/media/forky.b24dff968d6a108222fa.png",
     "static/media/headerlogo.png": "/static/media/headerlogo.b03e6a933ae132f45a84.png",
@@ -9,7 +9,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.3537a510.css",
+    "static/css/main.0ce3d85e.css",
     "static/js/main.05ff6fd4.js"
   ]
 }

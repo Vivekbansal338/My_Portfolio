@@ -49,7 +49,7 @@ const Home = () => {
         </span>
         <Link
           isExternal
-          href="https://drive.google.com/file/d/18wOFIsqJhAn_6Hn4aG3d4N0BypnA3I2K/view?usp=sharing"
+          href="https://drive.google.com/file/d/14rE_4_pRGefCCJQM2uwZOU_m1uvncMva/view?usp=sharing"
           className="px-4 py-3 mt-4 bg-text2 rounded-[10px] text-white"
         >
           <IoIosPaper className="mr-2" />

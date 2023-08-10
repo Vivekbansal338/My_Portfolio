@@ -11,6 +11,22 @@ import { BiObjectsHorizontalCenter } from "react-icons/bi";
 import { TbMathIntegralX } from "react-icons/tb";
 import "./Skills.scss";
 
+const temp = [
+  {
+    title: "ML",
+    description:
+      "A subset of artificial intelligence that focuses on developing algorithms and statistical models for computers to perform tasks without explicit programming.",
+    icon: TbMathIntegralX,
+    color: "#FFA500",
+  },
+  {
+    title: "Deep Learning",
+    description:
+      "A specialized field of machine learning that involves neural networks with multiple layers to learn and represent complex patterns in data.",
+    icon: SiSololearn,
+    color: "#008080",
+  },
+];
 const frontend = [
   {
     title: "React",
@@ -95,21 +111,7 @@ const others = [
     color: "#6A5ACD",
   },
   {
-    title: "ML",
-    description:
-      "A subset of artificial intelligence that focuses on developing algorithms and statistical models for computers to perform tasks without explicit programming.",
-    icon: TbMathIntegralX,
-    color: "#FFA500",
-  },
-  {
-    title: "Deep Learning",
-    description:
-      "A specialized field of machine learning that involves neural networks with multiple layers to learn and represent complex patterns in data.",
-    icon: SiSololearn,
-    color: "#008080",
-  },
-  {
-    title: "SQL and DBMS",
+    title: "Basic SQL",
     description:
       "Structured Query Language (SQL) is used to manage and manipulate relational databases, and Database Management Systems (DBMS) are software for interacting with databases.",
     icon: AiFillDatabase,
